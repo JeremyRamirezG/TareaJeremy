@@ -6,4 +6,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : Jun 3, 2023, 5:15:20 PM
     Author     : jrg71
 */
+nav{
+    max-width: 920px;
+    margin: auto;
+    background-color: black;
+    font-size: 20px;
+    align-self: center;
+}
+body{
+    background-color: black;
+}
 
+.titulo {
+    top : 0%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+ .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li a {
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu li:hover{
+    background-color: #40128B;
+    opacity: 0.5;
+}
